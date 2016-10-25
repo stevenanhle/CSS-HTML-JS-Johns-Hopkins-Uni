@@ -1,0 +1,43 @@
+@media(max-width:767px ) {
+.col-xs-12 {float:left;
+width: 96%;}
+}
+@media(min-width: 768px) and (max-width: 991px){
+.col-md-6 {float: left;
+width: 45%;
+margin-left: 2%}
+
+.col-md-12{float: left;
+width: 94.7%;
+margin-left: 2%;
+
+}
+}
+@media(min-width: 992px){
+.col-lg-4 {float: left;
+width: 30%;
+margin-left: 1%;
+text-align: justify;}
+}
+
+
+/*For all screen size */
+
+.row {width: 100%;}
+
+p.title {
+font-size:20px;
+margin-top: -11px;
+margin-right: -11px;
+padding: 10px;
+background-color: green;
+color: pink;
+float:right;
+border:2px solid red;}
+
+p {clear:both;}
+div {text-align: justify;
+margin-top: 20px;}
+div[class*='col']{border: solid 1px black;
+background: yellow;
+padding: 10px;}

@@ -1,0 +1,58 @@
+@media(max-width:767px ) {
+.col-xs-12 {float:left;
+width: 100%;}
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+.col-md-6 {float: left;
+width: 50%;
+}
+
+.col-md-12{float: left;
+width: 100%;
+}
+
+}
+@media(min-width: 992px){
+.col-lg-4 {float: left;
+width: 33.33%;
+}
+
+}
+
+
+/*For all screen size */
+*{ 
+ box-sizing: border-box;
+ margin: 0px;
+ font-family: Verdana, Geneva, sans-serif;}
+
+ .row {width: 100%;}
+
+.box{
+/*Phai gan position: relative o day de cho title voi position: absolute bam theo
+vi 1 element voi position la relative chi bam theo element prarent co position la relative*/
+position: relative;
+background-color: #DEB887;
+border: 1px solid black;
+padding: 0px;
+
+margin: 15px;
+}
+
+.title {
+font-size:20px;
+background-color: green;
+color: pink;
+position: absolute;
+top: 0px; 
+right: 0px;
+padding:3px;
+border:2px solid red;
+text-align: right;}
+
+p {margin:40px 15px 0px 15px;
+border: 1px solid red;}
+
+div{background-color: yellow;
+border: 1px solid green}
